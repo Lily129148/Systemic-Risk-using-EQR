@@ -111,7 +111,7 @@ The estimated GPD tail index was:
 
 indicating heavy-tailed behaviour in the fitted lower tail.
 
-![EQR Model Analysis](figures/EQR_Model_Analysis.png)
+![EQR Model Analysis](figures/EQR_model_analysis.png)
 
 The EVT-based EQR estimates were substantially smoother than the direct 0.1% SQR estimates while retaining time variation in the estimated systemic-risk boundary.
 
