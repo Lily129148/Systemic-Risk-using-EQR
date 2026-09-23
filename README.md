@@ -144,4 +144,13 @@ Systemic-Risk-using-EQR/
 ├── README.md
 ├── Systemic_Risk_Analysis_Results.ipynb
 ├── data/
+│   └── Data.xlsx
 └── figures/
+    ├── Correlation_matrix.png
+    ├── Descriptive_data.png
+    ├── OLS_model_result.png
+    ├── Quantile_Regression_analysis_result.png
+    ├── EQR_model_analysis.png
+    ├── Forecasting_systemic_risk.png
+    ├── Extremal_Quantile_Backtesting_result.png
+    └── Chernozhukov_test_for_EQR_model_result.png
