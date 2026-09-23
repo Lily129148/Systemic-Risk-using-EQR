@@ -138,6 +138,7 @@ The null hypothesis of the backtesting procedure was not rejected, meaning the o
 
 ## Project Structure
 
+```text
 Systemic-Risk-using-EQR/
 │
 ├── README.md
