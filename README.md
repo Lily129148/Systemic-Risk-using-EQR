@@ -142,6 +142,6 @@ The null hypothesis of the backtesting procedure was not rejected, meaning the o
 Systemic-Risk-using-EQR/
 │
 ├── README.md
-├── Systemic_Risk_EQR.ipynb
+├── Systemic_Risk_Analysis_Results.ipynb
 ├── data/
 └── figures/
