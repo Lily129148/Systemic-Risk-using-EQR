@@ -99,7 +99,7 @@ The Chernozhukov extremal tail stability test produced:
 
 The stability hypothesis was rejected, providing evidence that the direct extreme-quantile relationship becomes unstable as the target moves deeper into the tail.
 
-![Chernozhukov Stability Test](figures/Chernozhukov's_test.png)
+![Chernozhukov Stability Test](figures/Chernozhukov_test.png)
 
 ### EVT-Based Extremal Quantile Regression
 
@@ -111,7 +111,7 @@ The estimated GPD tail index was:
 
 indicating heavy-tailed behaviour in the fitted lower tail.
 
-![EQR Model Analysis](figures/EQR_model_analysis.png)
+![EQR Model Analysis](figures/EQR_model_analytics.png)
 
 The EVT-based EQR estimates were substantially smoother than the direct 0.1% SQR estimates while retaining time variation in the estimated systemic-risk boundary.
 
