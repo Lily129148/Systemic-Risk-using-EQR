@@ -74,18 +74,21 @@ A rolling window of 1,000 observations is used for the out-of-sample forecasting
 ## Key Results
 
 ### OLS
+![OLS Analysis](figures/OLS_model_result.png)
 
 The benchmark OLS model produced an R² of **0.007**, indicating limited explanatory power for the conditional mean of future systemic returns.
 
 ### Quantile Regression
+![QR Analysis](figures/Quantile_Regression_analysis_result.png)
 
 The QR analysis identified stronger relationships in the lower part of the conditional distribution than were visible from the conditional mean.
 
 Systemic return, system volatility and VIX showed statistically significant relationships with the selected lower conditional quantile.
 
 ### Extreme Quantile Estimation
+### Extreme Quantile Estimation
 
-Direct estimation of the **0.1% quantile using Standard Quantile Regression** showed substantial instability.
+Direct estimation of the **0.1% quantile using Standard Quantile Regression (SQR)** showed substantial instability.
 
 The Chernozhukov extremal tail stability test produced:
 
@@ -96,7 +99,11 @@ The Chernozhukov extremal tail stability test produced:
 
 The stability hypothesis was rejected, providing evidence that the direct extreme-quantile relationship becomes unstable as the target moves deeper into the tail.
 
-### EVT / EQR
+![Chernozhukov Stability Test](figures/Chernozhukov's_test.png)
+
+### EVT-Based Extremal Quantile Regression
+
+To address the instability of direct extreme-quantile estimation, the EQR framework combines an intermediate quantile regression with Extreme Value Theory.
 
 The estimated GPD tail index was:
 
@@ -104,9 +111,12 @@ The estimated GPD tail index was:
 
 indicating heavy-tailed behaviour in the fitted lower tail.
 
+![EQR Model Analysis](figures/EQR_Model_Analysis.png)
+
 The EVT-based EQR estimates were substantially smoother than the direct 0.1% SQR estimates while retaining time variation in the estimated systemic-risk boundary.
 
 ### Backtesting
+![Backtesting Results](figures/Extremal_Quantile_Backtesting_Result.png)
 
 Out-of-sample backtesting produced:
 
@@ -143,8 +153,7 @@ Systemic-Risk-using-EQR/
 │
 ├── README.md
 ├── Systemic_Risk_Analysis_Results.ipynb
-├── data/
-│   └── Data.xlsx
+├── Data.xlsx
 └── figures/
     ├── Correlation_matrix.png
     ├── Descriptive_data.png
