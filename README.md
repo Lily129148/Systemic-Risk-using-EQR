@@ -116,7 +116,7 @@ indicating heavy-tailed behaviour in the fitted lower tail.
 The EVT-based EQR estimates were substantially smoother than the direct 0.1% SQR estimates while retaining time variation in the estimated systemic-risk boundary.
 
 ### Backtesting
-![Backtesting Results](figures/Extremal_Quantile_Backtesting_Result.png)
+![Backtesting Results](figures/Extremal_Quantile_Backtesting_result.png)
 
 Out-of-sample backtesting produced:
 
